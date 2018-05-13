@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@vue/cli',
+1 verbose cli   '3.0' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of C:\Program Files\nodejs\package.json
+5 verbose readDependencies loading dependencies from C:\Program Files\nodejs\package.json
+6 silly cache add args [ '@vue/cli', null ]
+7 verbose cache add spec @vue/cli
+8 silly cache add args [ '3.0', null ]
+9 verbose cache add spec 3.0
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: '@vue/cli',
+10 silly cache add   scope: '@vue',
+10 silly cache add   name: '@vue/cli',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed @vue/cli@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for @vue/cli
+13 info addNameTag [ '@vue/cli', 'latest' ]
+14 silly mapToRegistry name @vue/cli
+15 silly mapToRegistry scope (from package name) @vue
+16 verbose mapToRegistry no registry URL found in name for scope @vue
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli
+20 verbose addNameTag registry:https://registry.npmjs.org/@vue%2fcli not in flight; fetching
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: '3.0',
+21 silly cache add   scope: null,
+21 silly cache add   name: '3.0',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: 'latest',
+21 silly cache add   type: 'tag' }
+22 silly addNamed 3.0@latest
+23 verbose addNamed "latest" is being treated as a dist-tag for 3.0
+24 info addNameTag [ '3.0', 'latest' ]
+25 silly mapToRegistry name 3.0
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/3.0
+29 verbose addNameTag registry:https://registry.npmjs.org/3.0 not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/@vue%2fcli
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 00:10:48
+33 verbose request id 77710e089f57fb36
+34 http request GET https://registry.npmjs.org/@vue%2fcli
+35 verbose request uri https://registry.npmjs.org/3.0
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 00:10:49
+38 http request GET https://registry.npmjs.org/3.0
+39 http 200 https://registry.npmjs.org/@vue%2fcli
+40 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+40 verbose headers   server: 'AmazonS3',
+40 verbose headers   'last-modified': 'Fri, 11 May 2018 4:03:41 GMT',
+40 verbose headers   etag: 'W/"5af5161d-98e0"',
+40 verbose headers   'content-encoding': 'gzip',
+40 verbose headers   via: '1.1 varnish (Varnish/5.2), 1.1 varnish',
+40 verbose headers   'cache-control': 'max-age=0',
+40 verbose headers   'content-length': '6162',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Sat, 12 May 2018 16:10:54 GMT',
+40 verbose headers   age: '0',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-nrt6145-NRT',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1526141454.285114,VS0,VE600',
+40 verbose headers   vary: 'Accept, Accept-Encoding' }
+41 silly get cb [ 200,
+41 silly get   { 'content-type': 'application/json; charset=UTF-8',
+41 silly get     server: 'AmazonS3',
+41 silly get     'last-modified': 'Fri, 11 May 2018 4:03:41 GMT',
+41 silly get     etag: 'W/"5af5161d-98e0"',
+41 silly get     'content-encoding': 'gzip',
+41 silly get     via: '1.1 varnish (Varnish/5.2), 1.1 varnish',
+41 silly get     'cache-control': 'max-age=0',
+41 silly get     'content-length': '6162',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Sat, 12 May 2018 16:10:54 GMT',
+41 silly get     age: '0',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-nrt6145-NRT',
+41 silly get     'x-cache': 'MISS',
+41 silly get     'x-cache-hits': '0',
+41 silly get     'x-timer': 'S1526141454.285114,VS0,VE600',
+41 silly get     vary: 'Accept, Accept-Encoding' } ]
+42 verbose get saving @vue/cli to C:\Users\tabweng\AppData\Roaming\npm-cache\registry.npmjs.org\_40vue_252fcli\.cache.json
+43 verbose correctMkdir C:\Users\tabweng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+44 silly addNameTag next cb for @vue/cli with tag latest
+45 silly addNamed @vue/cli@3.0.0-beta.10
+46 verbose addNamed "3.0.0-beta.10" is a plain semver version for @vue/cli
+47 silly mapToRegistry name @vue/cli
+48 silly mapToRegistry scope (from package name) @vue
+49 verbose mapToRegistry no registry URL found in name for scope @vue
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli
+53 verbose addRemoteTarball https://registry.npmjs.org/@vue/cli/-/cli-3.0.0-beta.10.tgz not in flight; adding
+54 verbose addRemoteTarball [ 'https://registry.npmjs.org/@vue/cli/-/cli-3.0.0-beta.10.tgz',
+54 verbose addRemoteTarball   'b919364be15d64ad039fed7768a560b6ea35c2b7' ]
+55 info retry fetch attempt 1 at 00:10:50
+56 info attempt registry request try #1 at 00:10:50
+57 http fetch GET https://registry.npmjs.org/@vue/cli/-/cli-3.0.0-beta.10.tgz
+58 http 404 https://registry.npmjs.org/3.0
+59 verbose headers { 'content-type': 'application/json',
+59 verbose headers   'cache-control': 'max-age=0',
+59 verbose headers   'content-length': '2',
+59 verbose headers   'accept-ranges': 'bytes',
+59 verbose headers   date: 'Sat, 12 May 2018 16:10:55 GMT',
+59 verbose headers   via: '1.1 varnish',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'x-served-by': 'cache-nrt6146-NRT',
+59 verbose headers   'x-cache': 'MISS',
+59 verbose headers   'x-cache-hits': '0',
+59 verbose headers   'x-timer': 'S1526141454.302027,VS0,VE1238',
+59 verbose headers   vary: 'Accept-Encoding' }
+60 silly get cb [ 404,
+60 silly get   { 'content-type': 'application/json',
+60 silly get     'cache-control': 'max-age=0',
+60 silly get     'content-length': '2',
+60 silly get     'accept-ranges': 'bytes',
+60 silly get     date: 'Sat, 12 May 2018 16:10:55 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     connection: 'keep-alive',
+60 silly get     'x-served-by': 'cache-nrt6146-NRT',
+60 silly get     'x-cache': 'MISS',
+60 silly get     'x-cache-hits': '0',
+60 silly get     'x-timer': 'S1526141454.302027,VS0,VE1238',
+60 silly get     vary: 'Accept-Encoding' } ]
+61 http fetch 200 https://registry.npmjs.org/@vue/cli/-/cli-3.0.0-beta.10.tgz
+62 silly fetchAndShaCheck shasum b919364be15d64ad039fed7768a560b6ea35c2b7
+63 verbose addTmpTarball C:\Users\tabweng\AppData\Local\Temp\npm-24292-3666e3c1\registry.npmjs.org\_40vue\cli\-\cli-3.0.0-beta.10.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for @vue/cli@3.0.0-beta.10
+65 verbose correctMkdir C:\Users\tabweng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+66 silly cache afterAdd @vue/cli@3.0.0-beta.10
+67 verbose afterAdd C:\Users\tabweng\AppData\Roaming\npm-cache\@vue\cli\3.0.0-beta.10\package\package.json not in flight; writing
+68 verbose correctMkdir C:\Users\tabweng\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+69 verbose afterAdd C:\Users\tabweng\AppData\Roaming\npm-cache\@vue\cli\3.0.0-beta.10\package\package.json written
+70 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/3.0
+70 verbose stack     at makeError (D:\nvm\v4.4.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+70 verbose stack     at CachingRegistryClient.<anonymous> (D:\nvm\v4.4.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+70 verbose stack     at Request._callback (D:\nvm\v4.4.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+70 verbose stack     at Request.self.callback (D:\nvm\v4.4.0\node_modules\npm\node_modules\request\request.js:199:22)
+70 verbose stack     at emitTwo (events.js:87:13)
+70 verbose stack     at Request.emit (events.js:172:7)
+70 verbose stack     at Request.<anonymous> (D:\nvm\v4.4.0\node_modules\npm\node_modules\request\request.js:1036:10)
+70 verbose stack     at emitOne (events.js:82:20)
+70 verbose stack     at Request.emit (events.js:169:7)
+70 verbose stack     at IncomingMessage.<anonymous> (D:\nvm\v4.4.0\node_modules\npm\node_modules\request\request.js:963:12)
+71 verbose statusCode 404
+72 verbose pkgid 3.0
+73 verbose cwd G:\github\pure-design
+74 error Windows_NT 10.0.14393
+75 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "@vue/cli" "3.0"
+76 error node v4.4.0
+77 error npm  v2.14.20
+78 error code E404
+79 error 404 Registry returned 404 for GET on https://registry.npmjs.org/3.0
+79 error 404
+79 error 404 '3.0' is not in the npm registry.
+79 error 404 You should bug the author to publish it (or use the name yourself!)
+79 error 404
+79 error 404 Note that you can also install from a
+79 error 404 tarball, folder, http url, or git url.
+80 verbose exit [ 1, true ]
